@@ -22,6 +22,7 @@ app.get('/project1', function(req, res){
 
 app.get('/project2', function(req, res){
   res.render('project2');
+
 })
 
 app.listen(app.get('port'), function() {
